@@ -1,4 +1,6 @@
 crewai
-langchain
+crewai-tools
+langchain==0.1.17
+langchain-community
 together
 python-dotenv

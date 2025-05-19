@@ -1,7 +1,7 @@
 ### Folder: tools/servicenow_step_tool.py
 
 from crewai_tools import BaseTool
-
+from typing import Any
 class ServiceNowStepTool(BaseTool):
     name = "ServiceNow Step Guide"
     description = "Gives step-by-step guide to perform a ServiceNow task."

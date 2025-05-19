@@ -1,5 +1,5 @@
 from crewai import Crew
-from langchain.llms import Together
+from langchain_community.llms import Together
 from agents.script_agent import get_script_agent
 from agents.steps_agent import get_steps_agent
 from task.servicenow_task import get_task

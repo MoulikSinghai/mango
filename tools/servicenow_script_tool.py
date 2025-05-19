@@ -1,10 +1,10 @@
 ### Folder: tools/servicenow_script_tool.py
-
-from crewai_tools import BaseTool
+from langchain.tools import BaseTool
+#from crewai_tools import BaseTool
 
 class ServiceNowScriptTool(BaseTool):
-    name = "ServiceNow Script Generator"
-    description = "Generates ServiceNow scripts for backend/frontend tasks."
+    name:str = "ServiceNow Script Generator"
+    description:str = "Generates ServiceNow scripts for backend/frontend tasks."
 
     def _run(self, query: str) -> str:
         # You can integrate LLM call here using Together API or LangChain LLM wrapper
